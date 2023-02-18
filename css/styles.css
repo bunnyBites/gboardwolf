@@ -16,7 +16,7 @@ p { font-size: 1.125rem; }
   border-radius: 5%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: 14rem;
-  padding: 4% 3%;
+  padding: 1% 2%;
 }
 
 /* scoreboard section */
@@ -30,6 +30,7 @@ p { font-size: 1.125rem; }
   color:hsl(0, 0%, 100%);
   font-weight: 400;
   font-size: 1.2rem;
+  margin-bottom: 6%;
 }
 
 .score-display {
@@ -55,12 +56,14 @@ p { font-size: 1.125rem; }
   color: hsl(0, 0%, 100%);
   font-weight: 700;
   font-size: 1.5rem;
-  padding-bottom: 5% auto;
+  padding-bottom: 3% auto 0;
+  margin: 5% auto;
 }
 
 .score-description {
   color: hsl(224, 30%, 80%);
   text-align: center;
+  font-size: 1rem;
 }
 
 
@@ -80,8 +83,8 @@ p { font-size: 1.125rem; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5% 0;
-  padding: 3% 5%;
+  margin: 4% 0;
+  padding: 4% 5%;
   border-radius: 5px;
 }
 
@@ -89,29 +92,29 @@ p { font-size: 1.125rem; }
 .subject-title { margin-left: 5px; }
 
 .subject-reaction {
-  background-color: hsl(0, 100%, 94%);
+  background-color: hsl(0, 100%, 98%);
   color: hsl(0, 94%, 67%);
 }
 
 .subject-memory {
-  background-color: hsl(39, 100%, 94%);
+  background-color: hsl(39, 100%, 98%);
   color: hsl(39, 100%, 56%);
 }
 
 .subject-verbal {
-  background-color: hsl(166, 100%, 94%);
+  background-color: hsl(166, 100%, 98%);
   color: hsl(166, 100%, 37%);
 }
 
 .subject-visual {
-  background-color: hsl(234, 85%, 94%);
+  background-color: hsl(234, 85%, 98%);
   color: hsl(234, 85%, 45%);
 }
 
 .subject-score { color: #000; }
 
 .btn {
-  margin: 4rem 0 0;
+  margin: 1rem 0 0;
   background-color: hsl(224, 30%, 27%);
   border-radius: 25px;
   padding: 5% 2%;
