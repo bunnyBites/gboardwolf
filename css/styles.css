@@ -1,0 +1,131 @@
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+p { font-size: 1.125rem; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.section-wrapper {
+  border-radius: 5%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 14rem;
+  padding: 4% 3%;
+}
+
+/* scoreboard section */
+
+.scoreboard {
+  text-align: center;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.score-title {
+  color:hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.score-display {
+  border-radius: 100%;
+  width: 5rem;
+  padding: 8%;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  margin: 2% auto;
+}
+
+.your-score {
+  font-size: 3rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+}
+
+.total-score {
+  color: hsl(224, 30%, 80%);
+  font-weight: 200;
+}
+
+.score-feedback {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 5% auto;
+}
+
+.score-description {
+  color: hsl(224, 30%, 80%);
+  text-align: center;
+}
+
+
+/* summary section */
+
+.summaryOverview {
+  /* width: 15rem; */
+  /* padding: 5% 3%; */
+}
+
+.summary-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.subject-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 0;
+  padding: 3% 5%;
+  border-radius: 5px;
+}
+
+.subject-icon-title-wrapper { display: inline-flex; }
+.subject-title { margin-left: 5px; }
+
+.subject-reaction {
+  background-color: hsl(0, 100%, 94%);
+  color: hsl(0, 94%, 67%);
+}
+
+.subject-memory {
+  background-color: hsl(39, 100%, 94%);
+  color: hsl(39, 100%, 56%);
+}
+
+.subject-verbal {
+  background-color: hsl(166, 100%, 94%);
+  color: hsl(166, 100%, 37%);
+}
+
+.subject-visual {
+  background-color: hsl(234, 85%, 94%);
+  color: hsl(234, 85%, 45%);
+}
+
+.subject-score { color: #000; }
+
+.btn {
+  margin: 4rem 0 0;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 25px;
+  padding: 5% 2%;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.btn:hover { background-color:  hsl(224, 30%, 20%); }
+
+@media only screen and (max-width: 600px) {
+  .container { display: contents; }
+  .summaryOverview {
+    position: relative;
+    top: -1rem;
+  }
+}

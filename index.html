@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="scoreboard section-wrapper">
+      <div class="score-title">Your Result</div>
+      <div class="score-display">
+        <div class="your-score">76</div>
+        <div class="total-score">of 100</div>
+      </div>
+      <div class="score-footer">
+        <div class="score-feedback">Great</div>
+        <p class="score-description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="summaryOverview section-wrapper">
+      <div class="summary-title">Summary</div>
+      <div class="subject-container subject-reaction">
+        <div class="subject-icon-title-wrapper">
+          <img src="assets/images/icon-reaction.svg" alt="reaction">
+          <div class="subject-title">Reaction</div>
+        </div>
+        <div class="subject-score"><strong>80</strong> / 100</div>
+      </div>
+      <div class="subject-container subject-memory">
+        <div class="subject-icon-title-wrapper">
+          <img src="assets/images/icon-memory.svg" alt="memory">
+          <div class="subject-title">Memory</div>
+        </div>
+        <div class="subject-score"><strong>92</strong> / 100</div>
+      </div>
+      <div class="subject-container subject-verbal">
+        <div class="subject-icon-title-wrapper">
+          <img src="assets/images/icon-verbal.svg" alt="verbal">
+          <div class="subject-title">Verbal</div>
+        </div>
+        <div class="subject-score"><strong>61</strong> / 100</div>
+      </div>
+      <div class="subject-container subject-visual">
+        <div class="subject-icon-title-wrapper">
+          <img src="assets/images/icon-visual.svg" alt="visual">
+          <div class="subject-title">Visual</div>
+        </div>
+        <div class="subject-score"><strong>72</strong> / 100</div>
+      </div>
+      <div class="btn">Continue</div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Bunny</a>.
+  </div>
+</body>
+
+</html>
